@@ -22,4 +22,8 @@ Microservices
 7. Run `pip freeze|less`
 8. Copy version numbers into requirements.txt
 9. Run `make install` again
-10. git status git add * git commit -m "pinning installed versions" git push
+10. git status git add * git commit -m "pinning installed versions" git push git status
+11. Add format code in Make file `black *.py mylib/*.py`
+12 Run `make format`
+13. In main import wiki and print wiki
+14. Run `python main.py`
