@@ -2,5 +2,5 @@ import wikipedia  # type: ignore
 
 
 def wiki(name="Biology", length=1):
-    myWiki = wikipedia.summary(name, length)
-    return myWiki
+    my_wiki = wikipedia.summary(name, length)
+    return my_wiki

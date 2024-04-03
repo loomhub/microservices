@@ -27,3 +27,5 @@ Microservices
 12 Run `make format`
 13. In main import wiki and print wiki
 14. Run `python main.py`
+15. Add lint `pylint --disable=R, *.py mylib/*.py` to Make file
+16 

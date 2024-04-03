@@ -7,6 +7,7 @@ format:
 	black *.py mylib/*.py
 lint:
 	#pylint
+	pylint --disable=R, *.py mylib/*.py
 test:
 	#test
 deploy:
