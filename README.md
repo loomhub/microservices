@@ -10,3 +10,16 @@ Microservices
     e. `touch mylib/__init__.py`
     f. `touch mylib/logic.py`
     g. `touch main.py`
+4. Build the Makefile
+5. Build the requirements.txt file as follows (without version numbers)
+    wikipedia
+    pytest
+    pytest-cov
+    pylint
+    black
+    fire
+6. Run `make install`
+7. Run `pip freeze|less`
+8. Copy version numbers into requirements.txt
+9. Run `make install` again
+10. git status git add * git commit -m "pinning installed versions" git push
