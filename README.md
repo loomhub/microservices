@@ -28,4 +28,6 @@ Microservices
 13. In main import wiki and print wiki
 14. Run `python main.py`
 15. Add lint `pylint --disable=R, *.py mylib/*.py` to Make file
-16 
+16. Create cli-fire.py to invoke fire.Fire(api_name)
+17. Run `chmod +x cli-fire.py` 
+18. Run `./cli-fire.py`
