@@ -10,6 +10,8 @@ lint:
 	pylint --disable=R, *.py mylib/*.py
 test:
 	#test
+build:
+	#build container
 deploy:
 	#deploy
 all: install format lint test deploy
