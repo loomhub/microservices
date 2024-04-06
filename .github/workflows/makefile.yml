@@ -21,6 +21,9 @@ jobs:
     - name: Install dependencies
       run: make install
 
+    - name: Run textblob install 
+      run: python -m textblob.download_corpora
+
     - name: Run format
       run: make format
 
