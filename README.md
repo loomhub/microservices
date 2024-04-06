@@ -31,3 +31,6 @@ Microservices
 16. Create cli-fire.py to invoke fire.Fire(api_name)
 17. Run `chmod +x cli-fire.py` 
 18. Run `./cli-fire.py`
+19. Run `docker build -t deploy-fastapi .` as part of Make File build
+20. Run `docker image ls` to get IMAGE_ID. In this build IMAGE_ID = 86071d41a11f 
+21. Run `docker run -p 127.0.0.1:8080:8080 86071d41a11f` as part of Make File build
